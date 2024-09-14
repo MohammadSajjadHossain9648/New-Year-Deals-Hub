@@ -24,7 +24,9 @@
 .description{
     color: var(--shade-black-color);
 }
-
+section{
+    margin: 96px 0;
+}
 
 
 
@@ -71,10 +73,10 @@
 
 /* 65% off section */
 .category{
-    text-align: center;
+    margin: 96px 208px;
     max-width: 643px;
     height: 645px;
-    margin: 96px 208px;
+    text-align: center;
 }
 .category .category_offer{
     font-size: 71px;
@@ -148,3 +150,31 @@
 
 
 /* schedule section */
+.schedule{
+    height: 386px;
+    border-radius: 13px;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0.1),rgba(255, 0, 0, 0) 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.schedule .schedule_info span{
+    color: var(--primary-red-color);
+}
+.schedule .schedule_info{
+    color: var(--primary-black-color);
+    font-size: 26px;
+    font-weight: 600;
+}
+.schedule .btn{
+    margin-top: 39px;
+    font-weight: 700;
+    color: var(--primary-white-color);
+    background-color: var(--primary-red-color);
+    border: none;
+    border-radius: 7px;
+    padding: 13px 26px;
+    cursor: pointer;
+}
