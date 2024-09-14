@@ -247,3 +247,49 @@ section{
 
 
 /* offer section */
+.offer{
+    height: 789px;
+    position: relative;
+}
+.offer .offer_header{
+    text-align: center;
+    margin: 0 100px;
+}
+.offer .offer_header .subtitle{
+    color: var(--primary-black-color);
+}
+.offer .offer_header .title{
+    font-size: 58px;
+    margin-bottom: 23px;
+}
+.offer .offer_header .title span{
+    color: var(--primary-red-color);
+}
+.offer .offer_header .description{
+    font-weight: 500;
+}
+
+.offer .offer_container{
+    margin-top: 52px;
+}
+.offer .offer_container .offer_img1{
+    height: 500px;
+    width: 640px;
+    position: relative;
+    z-index: 1;
+}
+.offer .offer_container .offer_img2{
+    height: 165px;
+    width: 165px;
+    position: absolute;
+    bottom: 40%;
+    right: 10%;
+}
+.offer .offer_container_item{
+    background-color: var(--primary-red-color);
+    height: 184px;
+    width: 100%;
+    border-radius: 16px 0px 16px 16px;
+    position: absolute;
+    bottom: 0%;
+}
