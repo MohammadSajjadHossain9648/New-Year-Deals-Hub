@@ -70,3 +70,27 @@
 
 
 /* 65% off section */
+.category{
+    text-align: center;
+    max-width: 643px;
+    height: 645px;
+    margin: 96px 208px;
+}
+.category .category_offer{
+    font-size: 71px;
+    color: var(--primary-red-color);
+    margin-bottom: 39px;
+}
+.category .category_subtitle{
+    font-size: 20px;
+    font-weight: 500px;
+    color: var(--primary-red-color);
+    margin-bottom: 13px;
+}
+.category .title{
+    font-family: "Inter", sans-serif;
+}
+.category img{
+    margin-top: 39px;
+    width: 100%;
+}
