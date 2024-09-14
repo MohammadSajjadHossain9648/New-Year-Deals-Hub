@@ -24,6 +24,12 @@
 .description{
     color: var(--shade-black-color);
 }
+.subtitle{
+    font-size: 20px;
+    font-weight: 500px;
+    color: var(--primary-red-color);
+    margin-bottom: 13px;
+}
 section{
     margin: 96px 0;
 }
@@ -56,9 +62,10 @@ section{
     align-items: center;
     text-align: center;
 }
-.banner .banner_subtitle{
+.banner .subtitle{
+    font-family: "Merriweather", serif;
     font-size: 26px;
-    margin-bottom: 13px;
+    color: var(--primary-white-color);
 }
 .banner .title{
     font-size: 58px;
@@ -82,12 +89,6 @@ section{
     font-size: 71px;
     color: var(--primary-red-color);
     margin-bottom: 39px;
-}
-.category .category_subtitle{
-    font-size: 20px;
-    font-weight: 500px;
-    color: var(--primary-red-color);
-    margin-bottom: 13px;
 }
 .category .title{
     font-family: "Inter", sans-serif;
@@ -137,7 +138,6 @@ section{
 .party img{
     width: 372px;
     height: 380px;
-    border: 1px dashed var(--shade-white-color);
 }
 
 
@@ -199,13 +199,8 @@ section{
     justify-content: center;
     flex-direction: column;
 }
-.info .info_left_container .info_subtitle{
-    font-size: 20px;
-    font-weight: 500;
-    color: var(--primary-red-color);
-}
 .info .info_left_container .title{
-    padding: 13px 0 18px;
+    padding-bottom: 18px;
 }
 
 .info .info_middle_container{
@@ -237,3 +232,18 @@ section{
     height: 112px;
     width: 112px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* offer section */
