@@ -425,6 +425,7 @@ section{
 .footer .footer_middle_container img{
     height: 51px;
     width: 51px;
+    cursor: pointer;
 }
 
 .footer .footer_bottom_container{
