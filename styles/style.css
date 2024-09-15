@@ -11,6 +11,7 @@
 }
 :root{
     --primary-red-color: rgb(255, 0, 0);
+    --bg-red-color: rgba(255, 0, 0, 0.05);
     --primary-white-color: rgb(255, 255, 255);
     --shade-white-color: rgba(255, 255, 255, 0.8);
     --primary-black-color: rgb(7, 2, 17);
@@ -302,4 +303,22 @@ section{
 
 
 
+
 /* portfolio section */
+.portfolio .title{
+    margin: 13px 0 18px;
+}
+.portfolio .description{
+    width: 65%;
+}
+.portfolio .portfolio_container{
+    margin-top: 39px;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+.portfolio .portfolio_container img{
+    width: 340px;
+    height: 360px;
+    border-radius: 13px;
+}
