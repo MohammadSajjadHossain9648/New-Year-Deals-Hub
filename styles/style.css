@@ -335,3 +335,43 @@ section{
 
 
 /* newsletter section */
+.newsletter{
+    height: 493px;
+    background-color: var(--bg-red-color);
+    padding: 64px 170px;
+}
+.newsletter .newsletter_container{
+    width: 716px;
+    text-align: center;
+}
+.newsletter .newsletter_container .title{
+    margin: 32px 0 18px;
+}
+.newsletter .newsletter_container .input_wrapper{
+    width: 540px;
+    margin-top: 39px;
+    position: relative;
+    display: inline-block;
+}
+.newsletter .newsletter_container .input_wrapper input{
+    padding: 20px 213px 20px 24px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+}
+.newsletter .newsletter_container .input_wrapper input[placeholder]{
+    font-size: 13px;
+    color: var(--shade-black-color);
+}
+.newsletter .newsletter_container .input_wrapper button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: var(--primary-red-color);
+    color: var(--primary-white-color);
+    font-weight: 600;
+    border: none;
+    padding: 20px 45px;
+    border-radius: 0px 50px 50px 0px;
+    cursor: pointer;
+}
